@@ -16,10 +16,10 @@ const Hero = () => {
         </button>
       </div>
 
-      <div className="hidden md:block w-1/2 pl-8">
-        <div className="relative">
-          <div className="absolute top-[-80px] right-[-50px] z-10">
-            <Moon size={80} className="text-moonYellow md:w-[120px] md:h-[120px] animate-float" />
+      <div className="w-full md:w-1/2 pl-8">
+        <div className="relative flex justify-center md:block">
+          <div className="absolute top-[-120px] md:top-[-160px] md:right-[-80px] sm:left-1/2 sm:-translate-x-1/2 z-10">
+            <Moon size={80} className="text-moonYellow w-[80px] h-[80px] md:w-[120px] md:h-[120px] animate-float" />
             <div className="absolute inset-0 blur-xl bg-moonYellow/20 rounded-full" />
           </div>
           <SleepChart />
